@@ -9,17 +9,17 @@
                 <div class="mb-3 text-center">
                     <label for="exampleInpu
                     tName" class="form-label">Full Name</label>
-                    <input type="text" class="form-control" id="exampleInputName1" name="fullname" aria-describedby="nameHelp" required>
+                    <input type="text" class="form-control" id="exampleInputName1" placeholder="Your name" name="fullname" aria-describedby="nameHelp" required>
                   </div>
                 <div class="mb-3 text-center">
                   <label for="exampleInputEmail1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" name="Email" aria-describedby="emailHelp" required>
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="you@mail.com" name="Email" aria-describedby="emailHelp" required>
                   <div id="emailHelp" class="form-text">This is confidential infomation </div>
                 </div>
                 <div class="mb-3 text-center">
                   <label for="exampleInputmessage1" class="form-label">Message</label>
                   <!-- <textarea name="" id="" cols="30" rows="10"></textarea> -->
-                  <input type="text" class="form-control" id="exampleInputmessage1" name="message" required>
+                  <input type="text" class="form-control" id="exampleInputmessage1" placeholder="text..." name="message" required>
                   <div id="messagedHelp" class="form-text"></div>
                 </div>
                 <button type="submit" class="btn btn-success">Submit</button>

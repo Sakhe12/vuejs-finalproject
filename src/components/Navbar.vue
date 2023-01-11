@@ -20,7 +20,7 @@
                     <router-link class="txt-col" to="/skills"><i class="fa-solid fa-wrench fa-flip" style="--fa-animation-duration: 3s;" ></i>Skills</router-link>
                 </li>
                 <li class="nav-item">
-                    <router-link class="txt-col" to="/"><i class="fa-solid fa-gamepad fa-flip" style="--fa-animation-duration: 3s;" ></i>Projects</router-link>
+                    <router-link class="txt-col" to="/projects"><i class="fa-solid fa-gamepad fa-flip" style="--fa-animation-duration: 3s;" ></i>Projects</router-link>
                 </li>
                 <li class="nav-item">
                     <router-link class="txt-col" to="/testimonials"><i class="fa-solid fa-search fa-flip" style="--fa-animation-duration: 3s;" ></i>Testimonial</router-link>

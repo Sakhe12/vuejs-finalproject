@@ -1,37 +1,58 @@
 <template lang="">
     <div>
-        
+        <div class="container-fluid tasks">
+            <div class="row gap-5 mx-4 d-sm-flex justify-content-center">
+                <h2 class="display-2"><strong>Projects</strong></h2>
+                <div v-for="work in projects" :key="work" class="card cards" style="width: 18rem;">
+                    <img :src="work.img" class="card-img-top pic" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">{{work.task}}</h5>
+                      <a :href="work.weblink" target="_blank" class="btn btn-danger">Browser</a>
+                      <a :href="work.github" target="_blank" class="btn btn-dark">Github</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
     </div>
 </template>
 <script>
 export default {
-    name : "projects"
+    name : "work",
     data() {
         return {
           projects : [
             {
-                img : "",
-                project : "",
-                weblink : "",
-                github : ""
+                img : "https://i.postimg.cc/pd6641V5/calculator.gif",
+                task : "Calculator",
+                weblink : "https://winxcalculator.netlify.app/",
+                github : "https://github.com/Sakhe12/calculator.git"
             },
             {
-                img : "",
-                project : "",
-                weblink : "",
-                github : ""
+                img : "https://i.postimg.cc/tgcxL816/atm.gif",
+                task : "Footyhub",
+                weblink : "https://footyhub-823968.netlify.app/",
+                github : "https://github.com/Sakhe12/jsfinalproject"
             },
             {
-                img : "",
-                project : "",
-                weblink : "",
-                github : ""
+                img : "https://i.postimg.cc/PrfmcgK6/wireframe.gif",
+                task : "Portfolio",
+                weblink : "https://sakhe.netlify.app/",
+                github : "https://github.com/Sakhe12/Portfolio.git"
             },
           ]  
         }
     },
 }
 </script>
-<style lang="">
-    
+<style scoped>
+.tasks {
+    min-height: 100vh;
+    padding-bottom: 3rem;
+}
+.cards {
+    background-color: #A6BB8D;
+}
+
+
+
 </style>

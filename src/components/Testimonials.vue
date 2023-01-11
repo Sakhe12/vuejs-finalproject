@@ -53,4 +53,7 @@ export default {
 .card {
     background-color: #A6BB8D;
 }
+.test {
+    padding-bottom: 3rem;
+}
 </style>
