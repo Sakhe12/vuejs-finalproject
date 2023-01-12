@@ -30,7 +30,7 @@ export default {
                     text : "Sakhe is a born leader. Political in his approach, firm in his execution. I believe his capabilities have been circumcised and that with the right methodology, can reach their peak. Yet for now, he's a dependable source of knowledge to anyone that needs an explanation simplified into plain words, the way of learning should be implemented."
                 },
                 {
-                    // image : "https://i.postimg.cc/44PL6HG6/Siba-img.jpg",
+                    image : "https://i.postimg.cc/HW00f9Wp/C11-Sibabalwe-Mafestire-1.jpg",
                     name : "Sibabalwe Mafestire",
                     text : "Sakhe is a go getter, dedicated and committed to his work, open minded and always looks forward to growth and developing his skills. Time oriented, and successfully completes his work before deadlines and is a very good team player."
                 },
@@ -52,6 +52,30 @@ export default {
 <style scoped >
 .card {
     background-color: #A6BB8D;
+    transform-origin: 50% 50;
+    animation: scaledown ,5s linear;
+    animation-fill-mode: forwards;
+}
+.card:hover {
+    transform-origin: 50% 50;
+    animation: down 5s linear;
+    animation-fill-mode: forwards;
+    z-index: 100;
+}
+@keyframes down {
+    100%{
+        transform: scale(1);
+    }
+    0%{transform: scale(1.2);
+    }
+}
+@keyframes down {
+    100%{
+        transform: scale(1);
+        box-shadow: var(--shadow);
+    }
+    0%{transform: scale(1.2);
+    }
 }
 .test {
     padding-bottom: 3rem;

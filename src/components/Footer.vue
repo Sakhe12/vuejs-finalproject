@@ -7,7 +7,7 @@
             <a href="https://twitter.com/MzolisaSakhe" class="text-dark" target="_blank"> <i class="fa-brands fa-twitter"></i>Twitter</a>
             <a href="https://www.linkedin.com/in/sakhe-mzolisa-507588230/" class="text-dark" target="_blank"><i class="fab fa-linkedin-in"></i>linkedin</a>
             <a href="https://github.com/Sakhe12" class="text-dark" target="_blank"><i class="bi bi-github"></i>Github</a> -->
-            <p class="text-dark text-center">Copyright &copy; 2023 by Sakhe Mzolisa</p>
+            <p class="text-white text-center">Copyright &copy; 2023 by Sakhe Mzolisa</p>
           </footer>
     </div>
 </template>
@@ -18,6 +18,6 @@ export default {
 </script>
 <style scoped>
 .foot {
-    background-color: #A6BB8D;
+    background-color: black;
 }
 </style>

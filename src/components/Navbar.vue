@@ -14,7 +14,7 @@
                     <router-link class="txt-col" to="/about"><i class="fa-solid fa-briefcase fa-flip" style="--fa-animation-duration: 3s;" ></i>About</router-link>
                 </li>
                 <li class="nav-item">
-                    <router-link class="txt-col" to="/"><i class="fa-solid fa-briefcase fa-flip" style="--fa-animation-duration: 3s;" ></i>Resume</router-link>
+                    <router-link class="txt-col" to="/resume"><i class="fa-solid fa-briefcase fa-flip" style="--fa-animation-duration: 3s;" ></i>Resume</router-link>
                 </li>
                 <li class="nav-item">
                     <router-link class="txt-col" to="/skills"><i class="fa-solid fa-wrench fa-flip" style="--fa-animation-duration: 3s;" ></i>Skills</router-link>
@@ -41,10 +41,25 @@ export default {
 <style >
 .txt-col {
     text-decoration: none;
-    color: white;
+    color: black;
+    transition:col 0.6s;
 }
+.txt-col:hover {
+    color: #fff;
+    text-shadow: 0 0 10px #fff,
+                 0 0 10px #fff,
+                 0 0 10px #fff,
+                 0 0 10px #fff;
+ }
 .fa-solid {
     color: aqua;
 }
+.txt-col :hover {
+    color: #fff;
+    text-shadow: 0 0 10px #fff,
+                 0 0 10px #fff,
+                 0 0 10px #fff,
+                 0 0 10px #fff;
+ }
 
 </style>

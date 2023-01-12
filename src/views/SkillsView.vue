@@ -1,7 +1,6 @@
 <template lang="">
     <div>
         <skills></skills>
-        <router-view></router-view>
     </div>
 </template>
 <script>

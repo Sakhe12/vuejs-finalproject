@@ -23,8 +23,8 @@ export default {
     height: 90vh;
 }
 img {
-    width: 320px;
-    height: 350px;
+    width: 285px;
+    height: 240px;
     filter: blur(5px);
 }
 img:hover {

@@ -46,6 +46,13 @@ const routes = [
       return import(/* webpackChunkName: "about" */ '../views/ProjectsView.vue')
     }
   },
+  {
+    path: '/resume',
+    name: 'resume',
+    component: function () {
+      return import(/* webpackChunkName: "about" */ '../views/ResumeView.vue')
+    }
+  }
 ]
 
 const router = createRouter({
