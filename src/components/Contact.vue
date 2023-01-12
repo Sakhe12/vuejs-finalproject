@@ -7,14 +7,19 @@
             method="post"
             >
                 <div class="mb-3 text-center">
-                    <label for="exampleInpu
+                    <label for="exampleInput
                     tName" class="form-label">Full Name</label>
-                    <input type="text" class="form-control" id="exampleInputName1" placeholder="Your name" name="fullname" aria-describedby="nameHelp" required>
+                    <input type="text" class="form-control" id="exampleInputName1" placeholder="Enter your name" name="fullname" aria-describedby="nameHelp" required>
+                  </div>
+                  <div class="mb-3 text-center">
+                    <label for="exampleInputSurname
+                    tName" class="form-label">Surname</label>
+                    <input type="text" class="form-control" id="exampleInputSurname1" placeholder="Enter your surname" name="Surname" aria-describedby="surnameHelp" required>
                   </div>
                 <div class="mb-3 text-center">
                   <label for="exampleInputEmail1" class="form-label">Email address</label>
                   <input type="email" class="form-control" id="exampleInputEmail1" placeholder="you@mail.com" name="Email" aria-describedby="emailHelp" required>
-                  <div id="emailHelp" class="form-text">This is confidential infomation </div>
+                  <div id="emailHelp" class="form-text">This is confidential information </div>
                 </div>
                 <div class="mb-3 text-center">
                   <label for="exampleInputmessage1" class="form-label">Message</label>
