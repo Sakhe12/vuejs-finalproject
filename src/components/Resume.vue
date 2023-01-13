@@ -1,19 +1,13 @@
-<template lang="">
-    <div>
-        <div class=".space" v-for="timeline in resume" :key="timeline">
-            <div class="row justify-content-center">
-                <div class="col-md-6">
-                  <div class="card">
-                    <div class="card-body">
-                      <h5 class="card-title"><strong>{{timeline.occupation}}</strong></h5>
-                      <p class="card-text">{{timeline.words}}</p>
-                      <p class="card-text">{{timeline.year}}</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+<template>
+    <section class="timelines container-fluid">
+        <div class="row space" v-for="timeline in resume" :key="timeline">
+            <div class=" attack-titan">
+                <h4 class="display-4">{{timeline.occupation}}</h4>
+                <p class="lead">{{timeline.words}}</p>
+                <p class="lead">{{timeline.year}}</p>
+            </div>
         </div>
-    </div>
+    </section>
 </template>
 <script>
 export default {
@@ -24,7 +18,7 @@ export default {
                 {
                     occupation : "Life Choices Coding Academy",
                     words : "hvhv",
-                    year : "2022 - 2000"
+                    year : "2022 - 2023"
                 },
                 {
                     occupation : "Mr D Food Flexi-Perm Customer Service Agent",
@@ -47,11 +41,5 @@ export default {
 }
 </script>
 <style scoped>
-.row {
-    padding-bottom: 3rem;
-}
-.card {
-    background-color: #A3BB98;
-    overflow-x: hidden;
-}
+  
 </style>
