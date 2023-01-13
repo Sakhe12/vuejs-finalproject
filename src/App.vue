@@ -9,6 +9,7 @@
 #app {
   font-family: 'Dosis', sans-serif;
   background-color: #61876E;
+  padding-bottom: 1rem;
 
 }
 </style>

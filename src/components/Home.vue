@@ -30,15 +30,13 @@ export default {
         /* width: 100%;
         height: 100%; */
         position: relative;
-        animation: example 8s infinite;
-        animation-direction: alternate;   
+        animation: example 8s infinite;   
     }
     #heading {
         /* width: 100%;
         height: 100%; */
         position: relative;
         animation: example 8s infinite;
-        animation-direction: alternate;
     }
     @keyframes example {
         from {left:0% ;}

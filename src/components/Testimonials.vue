@@ -2,7 +2,7 @@
     <div>
         <div class="container-fluid test">
             <div class="row gap-5 mx-5 d-sm-flex justify-content-center">
-                    <div v-for="humans in testimonials" :key="humans" class="card col-3" style="width: 18rem;">
+                    <div v-for="humans in testimonials" :key="humans" class="card" style="width: 18rem;">
                         <img :src="humans.image" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">{{humans.name}}</h5>
