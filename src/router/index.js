@@ -19,13 +19,6 @@ const routes = [
     }
   },
   {
-    path: '/skills',
-    name: 'skills',
-    component: function () {
-      return import(/* webpackChunkName: "about" */ '../views/SkillsView.vue')
-    }
-  },
-  {
     path: '/contact',
     name: 'contact',
     component: function () {

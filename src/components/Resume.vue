@@ -1,12 +1,44 @@
 <template>
     <div class="words">
-        <section class=" space container" v-for="timeline in resume" :key="timeline">
+        <section class="space container" v-for="timeline in resume" :key="timeline">
             <div class="dev">
                 <h4 class="display-4">{{timeline.occupation}}</h4>
                 <p class="lead">{{timeline.words}}</p>
                 <p class="lead">{{timeline.year}}</p>
             </div>
         </section>
+        <section id="skills" class="container skills bg-gradient">
+            <h2 class="display-2">Skills</h2>
+            <p class="lead"><i class="bi bi-filetype-html"></i>HTML</p>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated text-bg-info" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+            </div>
+            <p class="lead"><i class="bi bi-filetype-css"></i>CSS</p>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated text-bg-danger" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
+            </div>
+            <p class="lead"><i class="fa-brands fa-bootstrap"></i>Bootstrap</p>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated text-bg-success" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 85%"></div>
+            </div>
+            <p class="lead"><i class="fa-brands fa-node-js"></i>Javascript</p>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:60%"></div>
+            </div>
+            <p class="lead"><i class="fa-brands fa-vuejs"></i>Vue Js</p>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated text-bg-warning" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:65%"></div>
+            </div>
+            <h2 class="display-2">Soft Skills</h2>
+            <p class="lead"><i class="bi bi-screwdriver"></i>Problem-solving</p>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated text-bg-dark" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+            </div>
+            <p class="lead"><i class="bi bi-lightbulb-fill"></i>Creativity</p>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated text-bg-dark" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 85%"></div>
+            </div>
+          </section>
     </div>
 </template>
 <script>
@@ -17,7 +49,7 @@ export default {
             resume : [
                 {
                     occupation : "Life Choices Coding Academy",
-                    words : "hvhv",
+                    words : "Studying Web Development, would like to specialize in front-end",
                     year : "2022 - 2023"
                 },
                 {
@@ -43,8 +75,8 @@ export default {
 <style scoped>
 .words
 .space {
-    margin: 90px auto;
-    width: 360px;
+    margin: 5% auto;
+    width: 100%;
     border-left: 5px solid silver;
     padding: 0 20px 0 30px;
     top: 0;
@@ -53,22 +85,11 @@ export default {
     background-color: grey;
     padding: 10px 25px;
     font-size: 16px;
+    box-shadow: 0px 0px 5px #ccc;
     border: 1px solid silver;
     line-height: 1.7;
     position: relative;
 
-}
-.dev:before {
-    content: "";
-    display: block;
-    width: 20px;
-    min-height: 20px;
-    border-radius: 50%;
-    background-color: black;
-    border: 1px solid whitesmoke;
-    position: absolute;
-    top: 10%;
-    left: -14%;
 }
 
 @media (min-width: 768px) {
@@ -82,6 +103,9 @@ export default {
     }
   }
   
+  #skills {
+    padding-bottom: 2rem;
+  }
   /* Vertical layout for small screens */
   @media (max-width: 767px) {
     .timelines {
