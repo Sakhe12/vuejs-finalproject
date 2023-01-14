@@ -104,7 +104,7 @@ export default {
   }
   
   #skills {
-    padding-bottom: 2rem;
+    min-height: 100vh;
   }
   /* Vertical layout for small screens */
   @media (max-width: 767px) {

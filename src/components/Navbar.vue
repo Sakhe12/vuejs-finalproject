@@ -17,9 +17,6 @@
                     <router-link class="txt-col" to="/resume"><i class="fa-solid fa-briefcase fa-flip" style="--fa-animation-duration: 3s;" ></i>Resume</router-link>
                 </li>
                 <li class="nav-item">
-                    <router-link class="txt-col" to="/skills"><i class="fa-solid fa-wrench fa-flip" style="--fa-animation-duration: 3s;" ></i>Skills</router-link>
-                </li>
-                <li class="nav-item">
                     <router-link class="txt-col" to="/projects"><i class="fa-solid fa-gamepad fa-flip" style="--fa-animation-duration: 3s;" ></i>Projects</router-link>
                 </li>
                 <li class="nav-item">

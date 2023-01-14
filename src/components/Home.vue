@@ -19,7 +19,7 @@ export default {
 <style scoped>
     .home {
         background-image: url(https://i.postimg.cc/vmxMmkTM/bright-yellowgreen-banner-background-design-with-neon-lighting-mixture-yellow-green-warm-summer-satu.jpg);
-        height: 90vh;
+        height: 98vh;
         background-size: cover;
         overflow-x: hidden;
         display: flex !important;

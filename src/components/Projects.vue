@@ -39,6 +39,27 @@ export default {
                 weblink : "https://sakhe.netlify.app/",
                 github : "https://github.com/Sakhe12/Portfolio.git"
             },
+            {
+                img : "https://i.postimg.cc/RF77LNHt/browser.gif",
+                task : "Vue-end of Module",
+                weblink : "https://vuejs-finalproject-ba333.web.app/",
+                github : "https://github.com/Sakhe12/vuejs-finalproject.git"
+
+            },
+            {
+                img : "https://i.postimg.cc/0QNfP7XC/idea.gif",
+                task : "Footyhub(mock)",
+                weblink : "https://astonishing-hamster-68f43f.netlify.app/",
+                github : "https://github.com/Sakhe12/bootstrap-challenge.git"
+
+            },
+            {
+                img : "https://i.postimg.cc/hvxqg2rk/resize.gif",
+                task : "Project",
+                weblink : "https://lifechoices1.netlify.app/",
+                github : "https://github.com/Sakhe12/life-choices.git"
+
+            },
           ]  
         }
     },

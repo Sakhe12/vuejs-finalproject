@@ -44,6 +44,11 @@ export default {
                     name : "Lindokuhle Mgoqi",
                     text : "Sakhe has an amazing amount of willingness and he never leaves a task incomplete, He is also a social butterfly and works well with others."
                 },
+                {
+                    image : "https://i.postimg.cc/wMgwy3VW/C11-Brandon-Swinton-1.jpg",
+                    name : "Brandon Swinton",
+                    text : "Sakhe Mzolisa is hard working guy who completes every project and reaches every goal that he sets for himself. He is a selfless peer who go out of his way to assist others if they are having trouble with something. He is friendly and respectful which makes him perfect for the work-environment.",
+                }
             ]
         }
     },
